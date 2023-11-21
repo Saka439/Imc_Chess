@@ -14,7 +14,10 @@ from Piece import*
 
 class CasePlateau:
     def __init__(self, piece=None):
-        pass
+        self.piece=piece
 
     def est_occupe(self):
-        pass
+        if(self.piece==None):
+            return False
+        else:
+            return True
