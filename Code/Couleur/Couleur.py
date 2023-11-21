@@ -1,8 +1,8 @@
 from enum import Enum
 
 class Couleur(Enum):
-    BLANC = 0
-    NOIR = 1
+    BLANC = 1
+    NOIR = 0
 
     def __invert__(self):
         if(self==Couleur.BLANC):
