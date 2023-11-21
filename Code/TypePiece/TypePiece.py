@@ -12,7 +12,7 @@ class TypePiece(Enum):
         if self == TypePiece.ROI:
             return "Roi"
         elif self == TypePiece.DAME:
-            return "DAME"
+            return "Dame"
         elif self == TypePiece.TOUR:
             return "Tour"
         elif self == TypePiece.FOU:
