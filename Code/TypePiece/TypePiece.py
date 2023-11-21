@@ -9,4 +9,16 @@ class TypePiece(Enum):
     PION = 6
 
     def vers_chaine(self):
-         pass
+        if self == TypePiece.ROI:
+            return "Roi"
+        elif self == TypePiece.DAME:
+            return "DAME"
+        elif self == TypePiece.TOUR:
+            return "Tour"
+        elif self == TypePiece.FOU:
+            return "Fou"
+        elif self == TypePiece.CAVALIER:
+            return "Cavalier"
+        elif self == TypePiece.PION:
+            return "Pion"
+        
