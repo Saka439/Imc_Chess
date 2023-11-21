@@ -14,4 +14,7 @@ from TypePiece import *
 
 class Piece:
     def __init__(self, type_piece, couleur):
+        self.couleur=couleur
+        self.type=type_piece
+    def vers_chaine(self):
         pass
