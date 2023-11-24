@@ -21,7 +21,7 @@ class JeuEchec:
 
         if not('unittest' in sys.modules.keys()):
            self.interface = Interface()
-	pass
+           pass
 
     def est_case_joueur(self, pos, joueur):
         pass
@@ -48,7 +48,7 @@ class JeuEchec:
         pass
 
     def est_mouvement_valide(self, pos_depart, pos_fin):
-	pass
+	    pass
 
     def liste_mouvement_valide_joueur(self, joueur, juste_mouvement=False):
         pass
