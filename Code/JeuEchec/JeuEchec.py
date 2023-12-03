@@ -133,13 +133,14 @@ class JeuEchec:
                         if(juste_mouvement==True):
                             moveCav.append(npos)
                         else:
-                            self.plateau.matCases[npos.ligne-1][npos.colonne-1].piece=Piece(TypePiece.ROI,self.plateau.matCases[pos.ligne-1][pos.colonne-1].piece.couleur)
                             roi=self.plateau.matCases[pos.ligne-1][pos.colonne-1].piece
+                            piece=self.plateau.matCases[npos.ligne-1][npos.colonne-1].piece
+                            self.plateau.matCases[npos.ligne-1][npos.colonne-1].piece=roi
                             self.plateau.matCases[pos.ligne-1][pos.colonne-1].piece=None
                             if(self.est_echec(self.plateau.matCases[npos.ligne-1][npos.colonne-1].piece.couleur)==False):
                                 moveCav.append(npos)
                             self.plateau.matCases[pos.ligne-1][pos.colonne-1].piece=roi
-                            self.plateau.matCases[npos.ligne-1][npos.colonne-1].piece=None
+                            self.plateau.matCases[npos.ligne-1][npos.colonne-1].piece=piece
                 else:
                     moveCav.append(npos)
         return moveCav
