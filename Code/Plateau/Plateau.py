@@ -70,6 +70,7 @@ class Plateau:
                 if(((self.matCases)[i][j].piece)!=None):
                     d={}
                     d['type']=((self.matCases)[i][j]).piece.type
+                    d['nom']=((self.matCases)[i][j]).piece.type
                     d['couleur']=((self.matCases)[i][j]).piece.couleur
                     d['emplacement']=Pos(i+1,j+1).get_emplacement
                     liste.append(d)
