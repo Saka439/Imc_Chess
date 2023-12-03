@@ -166,7 +166,8 @@ class JeuEchec:
                                 liste.append(posd)
                 else:
                     if(self.plateau.matCases[posf.ligne-1][posf.colonne-1].est_occupe()==True):
-                        liste.append(posf)
+                        if(self.plateau.matCases[pos.ligne-1][pos.colonne-1].piece.couleur!=self.plateau.matCases[posf.ligne-1][posf.colonne-1].piece.couleur):
+                            liste.append(posf)
         return liste
 
                                 
