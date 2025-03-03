@@ -41,7 +41,7 @@ class Interface:
                 if (i + j) % 2 == 0:
                     fill_color = (139,69,19)
                 else:
-                    fill_color = (255,228,181)
+                    fill_color = (255,228,180)
                 self.SCREEN.fill(color=fill_color, rect=rect)
                 pygame.draw.rect(self.SCREEN, (0, 0, 0), rect, 1)
 
