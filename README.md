@@ -1,6 +1,6 @@
-Imc_Chess
+Chess
 
-Imc_Chess est un projet personnel dérivé d'un travail pratique, optimisé pour améliorer la gestion et la simulation d'un jeu d'échecs en Python. Il repose sur une approche orientée objet pour structurer les différentes composantes du jeu, telles que les pièces, le plateau et les règles de déplacement.
+Chess est un projet personnel dérivé d'un travail pratique, optimisé pour améliorer la gestion et la simulation d'un jeu d'échecs en Python. Il repose sur une approche orientée objet pour structurer les différentes composantes du jeu, telles que les pièces, le plateau et les règles de déplacement.
 
 🚀 Fonctionnalités
 
